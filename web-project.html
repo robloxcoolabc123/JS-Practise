@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My web project</title>
+	</head>
+	
+	<body>
+		
+		<style>
+			
+		</style>
+		
+		<h1>My web project</h1>
+
+		
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br>
+		
+		
+
+		  <button onclick="myFunction()">OK</button>
+		<!-- comments -->
+		
+		<script>
+
+			function myFunction() {
+				var fname = document.getElementById("fname").value;
+				var lname = document.getElementById("lname").value;
+				alert("Welcome Back " + fname + " " + lname + "!");
+			}
+		
+		</script>
+	</body>
+</html>
